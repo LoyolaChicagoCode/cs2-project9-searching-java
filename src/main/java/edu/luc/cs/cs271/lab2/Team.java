@@ -19,8 +19,7 @@ public class Team {
     // TODO validity checking for headcoach
     // TODO validity checking for funding
     this.name = name;
-    this.headcoach = headcoach;
-    this.funding = funding;
+    // TODO complete this constructor
   }
 
   /** Returns the team's name. */
@@ -30,11 +29,13 @@ public class Team {
 
   /** Returns the team's head coach. */
   public String getHeadcoach() {
-    return this.headcoach;
+    // TODO complete this method
+    return null;
   }
 
   /** Returns the team's funding level. */
   public int getFunding() {
-    return this.funding;
+    // TODO complete this method
+    return -1;
   }
 }
