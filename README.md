@@ -42,7 +42,7 @@ Please submit the following deliverables individually:
 - Individual GitHub Classroom lab2 repository 
 - Individual Sakai submission under "Lab 2":
   - URL of GitHub team repository
-  - Brief description of your collaboration methods and summary of your 
+  - Brief description of your collaboration style and summary of your 
     individual contributions to this team project
 
 # Grading
