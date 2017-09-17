@@ -1,8 +1,8 @@
-# COMP 271 F17 002 Lab 2
+# COMP 271 002 F17 Lab 2
 
 # Team project
 
-Work in teams of two
+Work in teams of two but submit individually (see details below)
 
 # Objectives
 
@@ -34,3 +34,33 @@ An understanding of the following concepts and techniques:
 - What is the purpose of constructor argument validity checking?
 - What is the purpose of using the keyword `final` with variables and arguments?
 - What are alternatives to using `Optional` and how do they compare?
+
+# Deliverables and submission
+
+Please submit the following deliverables individually:
+
+- Individual GitHub Classroom lab2 repository 
+- Individual Sakai submission under "Lab 2":
+  - URL of GitHub team repository
+  - Brief description of your collaboration methods and summary of your 
+    individual contributions to this team project
+
+# Grading
+
+- 0.5 Main: eliminate this code duplication
+- 0.5 Team: constructor with validation
+- 0.5 Team: remaining getters
+- 0.5 Search: findTeamPosition for List
+- 0.5 Search: findTeamMinFunding (linear search)
+- 1.0 Search: findTeamMinFundingFast (binary search)
+- 0.5 TestTeam: remaining tests
+- 0.5 TestSearch: makeListFixture
+- 1.0 TestSearch: remaining tests
+- 1.0 correct Gradle-based project structure
+- 1.0 correct use of Git version control
+- 2.5 Written part
+  - 1.5 responses to the questions above
+  - 0.5 grammar and style
+  - 0.5 formatting
+
+*10 points TOTAL*
