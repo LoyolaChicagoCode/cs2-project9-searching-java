@@ -41,7 +41,7 @@ public class Search {
   /** 
    * Looks for the position of the poorest team that has at least 
    * the specified funding level. 
-   * Uses binary search: Initially search the entire array, 
+   * Uses binary search: Initially consider the entire index range, 
    * then repeatedly eliminate the wrong half of the array until 
    * zero or one items are left.
    * @pre arr is sorted
@@ -51,7 +51,7 @@ public class Search {
     // TODO complete this method
     // Gets the array size
     final int size = arr.length;
-    // Initially search the entire array
+    // Initially consider the entire index range of the array
     int low = 0;
     int high = size - 1;
     // Keep going as long as there is more than one item to be checked
