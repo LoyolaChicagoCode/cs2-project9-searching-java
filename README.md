@@ -1,8 +1,9 @@
 # Loyola COMP 271 Lab 2
 
-# Team project
+# Individual project
 
-Work in teams of two but submit individually (see details below)
+Collaborate with your classmates on a conceptual level but do not share code.
+Submit individually.
 
 # Objectives
 
