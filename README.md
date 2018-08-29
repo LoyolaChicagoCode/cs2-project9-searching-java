@@ -1,4 +1,4 @@
-# COMP 271 002 F17 Lab 2
+# Loyola COMP 271 Lab 2
 
 # Team project
 
