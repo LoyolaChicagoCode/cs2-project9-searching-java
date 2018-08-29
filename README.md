@@ -57,7 +57,7 @@ Please submit the following deliverables individually:
 - 0.5 TestTeam: remaining tests
 - 0.5 TestSearch: makeListFixture
 - 1.0 TestSearch: remaining tests
-- 1.0 correct Gradle-based project structure
+- 1.0 correct Maven-based project structure
 - 1.0 correct use of Git version control
 - 2.5 Written part
   - 1.5 responses to the questions above
