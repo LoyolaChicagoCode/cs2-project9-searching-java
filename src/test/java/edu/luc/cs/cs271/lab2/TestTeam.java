@@ -9,14 +9,9 @@ public class TestTeam {
     return new Team(name, headcoach, funding);
   }
 
-  @Test
+  @Test(expected = IllegalArgumentException.class)
   public void testConstructorValidName() {
-    try {
-      new Team(null, "Klinsmann", 500);
-      fail("should have thrown IllegalArgumentException");
-    } catch (final Throwable ex) {
-      // if we landed here, we're good!
-    }
+    new Team(null, "Klinsmann", 500);
   }
   
   // TODO testConstructorValidHeadcoach
