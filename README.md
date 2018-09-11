@@ -40,11 +40,11 @@ An understanding of the following concepts and techniques:
 
 Please submit the following deliverables individually:
 
-- Individual GitHub Classroom lab2 repository 
+- Individual GitHub lab2 repository 
 - Individual Sakai submission under "Lab 2":
-  - URL of GitHub team repository
-  - Brief description of your collaboration style and summary of your 
-    individual contributions to this team project
+  - URL of your GitHub repository
+  - Very brief description of your collaboration style and summary of your 
+    individual contributions to this project
 
 # Grading
 
