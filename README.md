@@ -1,4 +1,4 @@
-# Loyola COMP 271 Lab 6
+# Loyola COMP 271 Lab 7
 
 # Pair project
 
