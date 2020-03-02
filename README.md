@@ -1,9 +1,8 @@
-# Loyola COMP 271 Lab 2
+# Loyola COMP 271 Lab 6
 
-# Individual project
+# Pair project
 
-Collaborate with your classmates on a conceptual level but do not share code.
-Submit individually.
+Collaborate with your teammates but submit individually. Clearly list the members of your team.
 
 # Objectives
 
@@ -40,28 +39,28 @@ An understanding of the following concepts and techniques:
 
 Please submit the following deliverables individually:
 
-- Individual GitHub lab2 repository 
-- Individual Sakai submission under "Lab 2":
+- Individual GitHub lab6 repository 
+- Individual Sakai submission under "Lab 7":
   - URL of your GitHub repository
   - Very brief description of your collaboration style and summary of your 
     individual contributions to this project
 
 # Grading
 
-- 0.5 Main: eliminate this code duplication
-- 0.5 Team: constructor with validation
-- 0.5 Team: remaining getters
-- 0.5 Search: findTeamPosition for List
-- 0.5 Search: findTeamMinFunding (linear search)
-- 1.0 Search: findTeamMinFundingFast (binary search)
-- 0.5 TestTeam: remaining tests
-- 0.5 TestSearch: makeListFixture
-- 1.0 TestSearch: remaining tests
-- 1.0 correct Maven-based project structure
-- 1.0 correct use of Git version control
-- 2.5 Written part
-  - 1.5 responses to the questions above
-  - 0.5 grammar and style
-  - 0.5 formatting
+- 0.3 Main: eliminate this code duplication
+- 0.3 Team: constructor with validation
+- 0.3 Team: remaining getters
+- 0.3 Search: findTeamPosition for List
+- 0.3 Search: findTeamMinFunding (linear search)
+- 0.5 Search: findTeamMinFundingFast (binary search)
+- 0.3 TestTeam: remaining tests
+- 0.3 TestSearch: makeListFixture
+- 0.3 TestSearch: remaining tests
+- 0.3 correct Maven-based project structure
+- 0.3 correct use of Git version control
+- 1.5 Written part
+  - 1.0 responses to the questions above
+  - 0.3 grammar and style
+  - 0.2 formatting
 
-*10 points TOTAL*
+*5 points TOTAL*
