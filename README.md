@@ -39,7 +39,7 @@ An understanding of the following concepts and techniques:
 
 Please submit the following deliverables individually:
 
-- Individual GitHub lab6 repository 
+- Individual GitHub lab7 repository 
 - Individual Sakai submission under "Lab 7":
   - URL of your GitHub repository
   - Very brief description of your collaboration style and summary of your 
