@@ -30,7 +30,7 @@ public class Search {
   /** 
    * Looks for the position of the poorest team that has at least 
    * the specified funding level.
-   * @pre arr is sorted
+   * @pre arr is sorted by funding level
    * @post arr[result].funding >= minFunding && for all 0 <= i < result : arr[i].funding < minFunding
    */
   public static Optional<Integer> findTeamMinFunding(final Team[] arr, final int minFunding) {
@@ -44,7 +44,7 @@ public class Search {
    * Uses binary search: Initially consider the entire index range, 
    * then repeatedly eliminate the wrong half of the array until 
    * zero or one items are left.
-   * @pre arr is sorted
+   * @pre arr is sorted by funding level
    * @post arr[result].funding >= minFunding && for all 0 <= i < result : arr[i].funding < minFunding
    */
   public static Optional<Integer> findTeamMinFundingFast(final Team[] arr, final int minFunding) {
