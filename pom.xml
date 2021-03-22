@@ -1,7 +1,7 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
   <groupId>edu.luc.cs</groupId>
-  <artifactId>cs2-lab2</artifactId>
+  <artifactId>cs2-lab7</artifactId>
   <version>0.1</version>
   
   <properties>
@@ -32,7 +32,7 @@
           </execution>
         </executions>
         <configuration>
-          <mainClass>edu.luc.cs.cs271.lab2.Main</mainClass>
+          <mainClass>edu.luc.cs.cs271.lab7.Main</mainClass>
         </configuration>
       </plugin>
       <plugin>

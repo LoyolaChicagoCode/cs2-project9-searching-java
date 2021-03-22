@@ -1,4 +1,4 @@
-package edu.luc.cs.cs271.lab2;
+package edu.luc.cs.cs271.lab7;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
