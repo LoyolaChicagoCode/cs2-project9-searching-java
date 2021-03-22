@@ -1,8 +1,9 @@
 # Loyola COMP 271 Lab 7
 
-# Pair project
+# Group project
 
-Collaborate with your teammates but submit individually. Clearly list the members of your team.
+Collaborate with your teammates but submit individually. 
+Clearly list the members of your team.
 
 # Objectives
 
@@ -29,21 +30,17 @@ An understanding of the following concepts and techniques:
 
 # Questions
 
-- What is the complexity of each of the four search methods in terms of array or list size n?
+- What is the time complexity of each of the four search methods in terms of array or list size n?
 - What happens in the case of binary search if the array is not sorted?
 - What is the purpose of constructor argument validity checking?
 - What is the purpose of using the keyword `final` with variables and arguments?
 - What are alternatives to using `Optional` and how do they compare?
 
-# Deliverables and submission
+# Submission
 
-Please submit the following deliverables individually:
-
-- Individual GitHub lab7 repository 
-- Individual Sakai submission under "Lab 7":
-  - URL of your GitHub repository
-  - Very brief description of your collaboration style and summary of your 
-    individual contributions to this project
+- Make sure you have created a separate project for this activity.
+- Include a project-specific Answers.md file including the responses to the questions above.
+- In IDEA, export your project as a zip file and submit as an attachment.
 
 # Grading
 
@@ -52,12 +49,10 @@ Please submit the following deliverables individually:
 - 0.3 Team: remaining getters
 - 0.3 Search: findTeamPosition for List
 - 0.3 Search: findTeamMinFunding (linear search)
-- 0.5 Search: findTeamMinFundingFast (binary search)
+- 0.6 Search: findTeamMinFundingFast (binary search)
 - 0.3 TestTeam: remaining tests
 - 0.3 TestSearch: makeListFixture
 - 0.3 TestSearch: remaining tests
-- 0.3 correct Maven-based project structure
-- 0.3 correct use of Git version control
 - 1.5 Written part
   - 1.0 responses to the questions above
   - 0.3 grammar and style
