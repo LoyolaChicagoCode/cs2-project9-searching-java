@@ -8,13 +8,13 @@ import java.util.Scanner;
 public class Main {
 
   public static void main(final String[] args) {
-    final Team t1 = new Team("USA", "Sarachan", 500);
-    final Team t2 = new Team("Chile", "Rueda", 600);
-    final Team t3 = new Team("Germany", "Löw", 700);
-    final Team[] array = {t1, t2, t3};
-    final List<Team> list = Arrays.asList(array);
+    final var t1 = new Team("USA", "Sarachan", 500);
+    final var t2 = new Team("Chile", "Rueda", 600);
+    final var t3 = new Team("Germany", "Löw", 700);
+    final var array = new Team[] {t1, t2, t3};
+    final var list = Arrays.asList(array);
 
-    final Scanner keyboard = new Scanner(System.in);
+    final var keyboard = new Scanner(System.in);
 
     // Get team name
     System.out.print("Enter name to search: ");
@@ -31,8 +31,7 @@ public class Main {
 
     // Get funding level
     System.out.print("Enter min funding to search: ");
-    final String fundingString = keyboard.nextLine();
-    final int funding = Integer.parseInt(fundingString);
+    final int funding = keyboard.nextInt();
     System.out.println("Looking for min funding " + funding);
   
     // Runs the linear search on the array
@@ -48,8 +47,8 @@ public class Main {
     // Checks the index
     if (index.isPresent()) {
       System.out.println("Found!");
-      final int pos = index.get();
-      final Team team = array[pos];
+      final var pos = index.get();
+      final var team = array[pos];
       // TODO DRY - eliminate this code duplication
       System.out.println("Name: " + team.getName());
       System.out.println("Head coach: " + team.getHeadcoach());
@@ -65,8 +64,8 @@ public class Main {
     // Checks the index
     if (index.isPresent()) {
       System.out.println("Found!");
-      final int pos = index.get();
-      final Team team = list.get(pos);
+      final var pos = index.get();
+      final var team = list.get(pos);
       // TODO DRY - eliminate this code duplication
       System.out.println("Name: " + team.getName());
       System.out.println("Head coach: " + team.getHeadcoach());

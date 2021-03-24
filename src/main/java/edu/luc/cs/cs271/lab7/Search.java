@@ -8,9 +8,9 @@ public class Search {
   /** Looks for the position of the named team in an array. */
   public static Optional<Integer> findTeamPosition(final Team[] arr, final String key) {
     // Gets the array size
-    final int size = arr.length;
+    final var size = arr.length;
     // Runs through a for loop to check
-    for (int i = 0; i < size; i++) {
+    for (var i = 0; i < size; i++) {
       // Gets the current item at index and compare name to key
       if (arr[i].getName().equals(key)) {
         // Return the index of where the item with key is located
