@@ -42,7 +42,23 @@ An understanding of the following concepts and techniques:
 - Include a project-specific Answers.md file including the responses to the questions above.
 - In IDEA, export your project as a zip file and submit as an attachment.
 
-# Grading
+# Grading (SP22 - total 3.5 points)
+
+- 0.3 Main: eliminate this code duplication
+- 0.2 Team: constructor with validation
+- 0.2 Team: remaining getters
+- 0.3 Search: findTeamPosition for List
+- 0.3 Search: findTeamMinFunding (linear search)
+- 0.3 Search: findTeamMinFundingFast (binary search)
+- 0.3 TestTeam: remaining tests
+- 0.3 TestSearch: makeListFixture
+- 0.3 TestSearch: remaining tests
+- 1 Written part
+  - 0.7 responses to the questions above
+  - 0.2 grammar and style
+  - 0.1 formatting
+
+# Grading (total 5 points)
 
 - 0.3 Main: eliminate this code duplication
 - 0.3 Team: constructor with validation
@@ -57,5 +73,3 @@ An understanding of the following concepts and techniques:
   - 1.0 responses to the questions above
   - 0.3 grammar and style
   - 0.2 formatting
-
-*5 points TOTAL*
