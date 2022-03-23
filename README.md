@@ -1,4 +1,4 @@
-# COMP 271 002 F17 Lab 2
+# COMP 271 Lab 7
 
 # Team project
 
@@ -39,8 +39,8 @@ An understanding of the following concepts and techniques:
 
 Please submit the following deliverables individually:
 
-- Individual GitHub Classroom lab2 repository 
-- Individual Sakai submission under "Lab 2":
+- Individual GitHub Classroom lab7 repository 
+- Individual Sakai submission under "Lab 7":
   - URL of GitHub team repository
   - Brief description of your collaboration style and summary of your 
     individual contributions to this team project
