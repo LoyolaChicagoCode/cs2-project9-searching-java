@@ -19,7 +19,7 @@ public class Main {
     final Station howard = new Station("Howard", Set.of(Line.RED, Line.PURPLE, Line.YELLOW), 42.019051, -87.672889);
     final Station southBlvd = new Station("South Blvd", Set.of(Line.PURPLE), 42.027240, -87.678277);
 
-    final Station[] array = { loyola, granville, thorndale, belmont, howard, southBlvd };
+    final Station[] array = { belmont, thorndale, granville, loyola, howard, southBlvd };
     final List<Station> list = Arrays.asList(array);
 
     final Scanner keyboard = new Scanner(System.in);
