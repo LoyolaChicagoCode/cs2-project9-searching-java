@@ -3,75 +3,81 @@ package edu.luc.cs.cs271.lab7;
 import java.util.Optional;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Set;
 import java.util.Scanner;
 
 public class Main {
 
   public static void main(final String[] args) {
-    final var t1 = new Team("USA", "Sarachan", 500);
-    final var t2 = new Team("Chile", "Rueda", 600);
-    final var t3 = new Team("Germany", "Löw", 700);
-    final var array = new Team[] {t1, t2, t3};
-    final var list = Arrays.asList(array);
+    // some red line stations
+    final Station loyola = new Station("Loyola", Set.of(Line.RED), 42.001162, -87.660874);
+    final Station granville = new Station("Granville", Set.of(Line.RED), 41.994525, -87.659168);
+    final Station thorndale = new Station("Thorndale", Set.of(Line.RED), 41.990059, -87.658889);
 
-    final var keyboard = new Scanner(System.in);
+    // some purple line stations
+    final Station belmont = new Station("Belmont", Set.of(Line.RED, Line.PURPLE), 41.939956, -87.653324);
+    final Station howard = new Station("Howard", Set.of(Line.RED, Line.PURPLE, Line.YELLOW), 42.019051, -87.672889);
+    final Station southBlvd = new Station("South Blvd", Set.of(Line.PURPLE), 42.027240, -87.678277);
 
-    // Get team name
-    System.out.print("Enter name to search: ");
+    final Station[] array = { belmont, thorndale, granville, loyola, howard, southBlvd };
+    final List<Station> list = Arrays.asList(array);
+
+    final Scanner keyboard = new Scanner(System.in);
+
+    // Get station name
+    System.out.print("Enter station to search for: ");
     final String key = keyboard.nextLine();
-    System.out.println("Looking for team " + key);
+    System.out.println("Looking for station " + key);
 
     // Runs the linear search on the array
-    final Optional<Integer> index1 = Search.findTeamPosition(array, key);
-    checkTeamArrayIndex(array, index1);
+    final Optional<Integer> index1 = Search.findStationPosition(array, key);
+    checkStationArrayIndex(array, index1);
     
     // Runs the linear search on the list
-    final Optional<Integer> index2 = Search.findTeamPosition(list, key);
-    checkTeamListIndex(list, index2);
+    final Optional<Integer> index2 = Search.findStationPosition(list, key);
+    checkStationListIndex(list, index2);
 
     // Get funding level
-    System.out.print("Enter min funding to search: ");
-    final int funding = keyboard.nextInt();
-    System.out.println("Looking for min funding " + funding);
+    System.out.print("Enter min latitude to search: ");
+    final double minLatitude = keyboard.nextDouble();
+    System.out.println("Looking for min latitude " + minLatitude);
   
     // Runs the linear search on the array
-    final Optional<Integer> index3 = Search.findTeamMinFunding(array, funding);
-    checkTeamArrayIndex(array, index3);
+    final Optional<Integer> index3 = Search.findStationMinLatitude(array, minLatitude);
+    checkStationArrayIndex(array, index3);
 
     // Runs the binary search on the array
-    final Optional<Integer> index4 = Search.findTeamMinFundingFast(array, funding);
-    checkTeamArrayIndex(array, index4);
+    final Optional<Integer> index4 = Search.findStationMinLatitudeFast(array, minLatitude);
+    checkStationArrayIndex(array, index4);
   }
   
-  static void checkTeamArrayIndex(final Team[] array, final Optional<Integer> index) {
+  static void checkStationArrayIndex(final Station[] array, final Optional<Integer> index) {
     // Checks the index
     if (index.isPresent()) {
       System.out.println("Found!");
-      final var pos = index.get();
-      final var team = array[pos];
+      final int pos = index.get();
+      final Station station = array[pos];
       // TODO DRY - eliminate this code duplication
-      System.out.println("Name: " + team.getName());
-      System.out.println("Head coach: " + team.getHeadcoach());
-      System.out.println("Funding: " + team.getFunding());
+      System.out.println("Name: " + station.getName());
+      System.out.println("Lines: " + station.getLines());
+      System.out.println("Lon/lat: " + station.getLon() + "," + station.getLat());
       System.out.println("Array index: " + pos);
-      System.out.println("Ranking: " + (pos + 1));
     } else {
       System.out.println("Not Found!");
     }
   }
 
-  static void checkTeamListIndex(final List<Team> list, final Optional<Integer> index) {
+  static void checkStationListIndex(final List<Station> list, final Optional<Integer> index) {
     // Checks the index
     if (index.isPresent()) {
       System.out.println("Found!");
-      final var pos = index.get();
-      final var team = list.get(pos);
+      final int pos = index.get();
+      final Station station = list.get(pos);
       // TODO DRY - eliminate this code duplication
-      System.out.println("Name: " + team.getName());
-      System.out.println("Head coach: " + team.getHeadcoach());
-      System.out.println("Funding: " + team.getFunding());
+      System.out.println("Name: " + station.getName());
+      System.out.println("Lines: " + station.getLines());
+      System.out.println("Lon/lat: " + station.getLon() + "," + station.getLat());
       System.out.println("Array index: " + pos);
-      System.out.println("Ranking: " + (pos + 1));
     } else {
       System.out.println("Not Found!");
     }
