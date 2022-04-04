@@ -26,26 +26,31 @@ public class Search {
     // TODO complete this method
     return Optional.empty();
   }
-  
-  /** 
+
+  /**
    * Looks for the index of the closest station north of the specified latitude.
+   *
    * @pre arr is sorted
-   * @post arr[result].funding >= minFunding && for all 0 <= i < result : arr[i].funding < minFunding
+   * @post arr[result].funding >= minFunding && for all 0 <= i < result : arr[i].funding <
+   *     minFunding
    */
-  public static Optional<Integer> findStationMinLatitude(final Station[] arr, final double minLatitude) {
+  public static Optional<Integer> findStationMinLatitude(
+      final Station[] arr, final double minLatitude) {
     // TODO complete this method
     return Optional.empty();
   }
-  
+
   /**
-   * Looks for the index of the closest station north of the specified latitude.
-   * Uses binary search: Initially consider the entire index range,
-   * then repeatedly eliminate the wrong half of the array until 
-   * zero or one items are left.
+   * Looks for the index of the closest station north of the specified latitude. Uses binary search:
+   * Initially consider the entire index range, then repeatedly eliminate the wrong half of the
+   * array until zero or one items are left.
+   *
    * @pre arr is sorted
-   * @post arr[result].funding >= minFunding && for all 0 <= i < result : arr[i].funding < minFunding
+   * @post arr[result].funding >= minFunding && for all 0 <= i < result : arr[i].funding <
+   *     minFunding
    */
-  public static Optional<Integer> findStationMinLatitudeFast(final Station[] arr, final double minLatitude) {
+  public static Optional<Integer> findStationMinLatitudeFast(
+      final Station[] arr, final double minLatitude) {
     // TODO complete this method
     // Gets the array size
     final int size = arr.length;

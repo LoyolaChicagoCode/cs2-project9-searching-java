@@ -1,13 +1,12 @@
 package edu.luc.cs.cs271.lab7;
 
-import org.junit.Test;
-
-import java.util.Set;
-
 import static org.junit.Assert.*;
 
+import java.util.Set;
+import org.junit.Test;
+
 public class TestSearch {
-  
+
   Station[] makeArrayFixture(final int size) {
     final Station[] array = new Station[size];
     for (int i = 0; i < size; i++) {
@@ -37,9 +36,9 @@ public class TestSearch {
     final Station[] arr = makeArrayFixture(10);
     assertFalse(Search.findStationPosition(arr, "Station 11").isPresent());
   }
-  
+
   // TODO: testFindPositionList0, 10s, 10f
-  
+
   // TODO: testFindMinLatitudeArray for several sizes and scenarios
 
   // TODO: testFindMinLatitudeArrayFast for several sizes and scenarios

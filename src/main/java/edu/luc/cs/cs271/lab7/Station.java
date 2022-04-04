@@ -1,16 +1,15 @@
 package edu.luc.cs.cs271.lab7;
 
-import java.util.Collections;
 import java.util.Set;
 
 /** A CTA train station. */
 public class Station {
 
-  public final static String city = "Chicago";
+  public static final String city = "Chicago";
   public static double fare = 2.25;
 
-  public final static double LOOP_LAT = 41.88204;
-  public final static double LOOP_LON = -87.62790;
+  public static final double LOOP_LAT = 41.88204;
+  public static final double LOOP_LON = -87.62790;
 
   /** This station's latitude in degrees. */
   private final double lat;

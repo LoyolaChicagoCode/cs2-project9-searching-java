@@ -1,14 +1,14 @@
 package edu.luc.cs.cs271.lab7;
 
-import org.junit.Test;
-
-import java.util.Set;
-
 import static org.junit.Assert.*;
 
+import java.util.Set;
+import org.junit.Test;
+
 public class TestStation {
-  
-  Station makeStationFixture(final String name, final Set<Line> lines, final double lat, final double lon) {
+
+  Station makeStationFixture(
+      final String name, final Set<Line> lines, final double lat, final double lon) {
     return new Station(name, lines, lat, lon);
   }
 
@@ -21,7 +21,7 @@ public class TestStation {
       // if we landed here, we're good!
     }
   }
-  
+
   // TODO testConstructorValidLines
   // TODO testConstructorValidLat/Lon
 
@@ -31,7 +31,7 @@ public class TestStation {
     final Station t = makeStationFixture(name, Set.of(Line.YELLOW), 42, -87);
     assertEquals(name, t.getName());
   }
-  
+
   // TODO testGetLines
   // TODO testGetLat/Lon
 }
