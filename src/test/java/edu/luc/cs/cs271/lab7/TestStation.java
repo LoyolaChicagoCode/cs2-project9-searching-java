@@ -12,14 +12,9 @@ public class TestStation {
     return new Station(name, lines, lat, lon);
   }
 
-  @Test
+  @Test(expected = IllegalArgumentException.class)
   public void testConstructorValidName() {
-    try {
-      new Station(null, Set.of(Line.BLUE), 42, -87);
-      fail("should have thrown IllegalArgumentException");
-    } catch (final Throwable ex) {
-      // if we landed here, we're good!
-    }
+    new Station(null, Set.of(Line.BLUE), 42, -87);
   }
 
   // TODO testConstructorValidLines
