@@ -1,6 +1,6 @@
 # COMP 271 Lab 8: linear and binary search
 
-# Team project
+# Group activity
 
 Work in teams of two but submit individually (see details below)
 
