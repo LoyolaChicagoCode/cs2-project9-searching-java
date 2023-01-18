@@ -1,4 +1,4 @@
-# COMP 271 Lab 7
+# COMP 271 Lab 8: linear and binary search
 
 # Team project
 
