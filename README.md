@@ -1,8 +1,8 @@
-# COMP 271 Lab 8: linear and binary search
+# COMP 271 Project 9: linear and binary search
 
 # Group activity
 
-Work in teams of two but submit individually (see details below)
+In this activity, we'll explore search algorithms on geodata (CTA stations).
 
 # Objectives
 
