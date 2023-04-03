@@ -1,4 +1,4 @@
-package edu.luc.cs.cs271.lab7;
+package project9;
 
 /**
  * CTA lines.

@@ -45,26 +45,6 @@ Please submit the following deliverables individually:
   - Brief description of your collaboration style and summary of your 
     individual contributions to this team project
 
-# Grading (spring 2022)
-
-- 0.2 Main: eliminate this code duplication
-- 0.2 Station: constructor with validation
-- 0.2 Station: remaining getters
-- 0.2 Search: findStationPosition for List
-- 0.2 Search: findStationMinLatitude (linear search)
-- 0.3 Search: findStationMinLatitudeFast (binary search)
-- 0.2 TestStation: remaining tests
-- 0.2 TestSearch: makeListFixture
-- 0.3 TestSearch: remaining tests
-- 0.3 correct Maven-based project structure
-- 0.4 correct use of Git version control
-- 0.8 Written part
-  - 0.6 responses to the questions above
-  - 0.1 grammar and style
-  - 0.1 formatting
-
-*3.5 points TOTAL*
-
 # Grading
 
 - 0.3 Main: eliminate this code duplication
